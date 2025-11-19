@@ -1,5 +1,5 @@
 // Inicializa EmailJS con tu Public Key
-emailjs.init("Mij2hxi74IOrpJ8KQ"); // Public Key que me pasaste
+emailjs.init("Mij2hxi74IOrpJ8KQ"); // Public Key
 
 // Escucha el envío del formulario
 document.getElementById('personalDataForm').addEventListener('submit', function(event) {
@@ -13,7 +13,7 @@ document.getElementById('personalDataForm').addEventListener('submit', function(
   const message = document.getElementById('message').value;
 
   // Enviar correo con EmailJS
-  emailjs.send("TU_SERVICE_ID", "TU_TEMPLATE_ID", {
+  emailjs.send("service_a3697qc", "template_z6xjm5i", {
     firstName: firstName,
     lastName: lastName,
     email: email,
